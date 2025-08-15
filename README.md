@@ -13,6 +13,10 @@
 1. clean live data before execute
 2. calculate the difference between previous and current
 3. if same signal overload, exit/ignore
+- Look at the last N signals (ignoring 0).
+- If the previous signal == current signal, increment a repeat counter.
+- If the repeat counter > 3 → trigger execution.
+- If they’re different → reset counter and continue trading immediately.
 
 - currently only send market order, need to add send limit order function
 - create for long and short (comment for short)

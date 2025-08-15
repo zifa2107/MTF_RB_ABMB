@@ -16,3 +16,7 @@
 
 - currently only send market order, need to add send limit order function
 - create for long and short (comment for short)
+
+## References
+1. https://www.mql5.com/en/articles/18985
+2. https://www.mql5.com/en/articles/18971
